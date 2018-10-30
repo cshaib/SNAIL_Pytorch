@@ -41,7 +41,7 @@ def select_action(policy, state):
 
   probs = policy(state)
   m = Categorical(probs)
-  # print(m.probs)
+  print(m.probs)
   action = m.sample()
   # print(action)
   policy.saved_log_probs.append(m.log_prob(action))
