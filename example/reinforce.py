@@ -9,7 +9,7 @@ import torch.nn.functional as F
 import torch.optim as optim
 from torch.distributions import Categorical
 
-from policy import FCN_Policy, SNAIL_Policy, GRU_Policyß
+from policy import FCN_Policy, SNAIL_Policy, GRU_Policy
 
 parser = argparse.ArgumentParser(description='PyTorch REINFORCE Multi-armed Bandit')
 
